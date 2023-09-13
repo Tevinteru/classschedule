@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ienik\\source\\repos\\ClassSchedule\\ClassSchedule\\ClassSchedule.csproj": {}
+    "C:\\Users\\Alexey_\\source\\repos\\classschedule-main\\ClassSchedule\\ClassSchedule.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ienik\\source\\repos\\ClassSchedule\\ClassSchedule\\ClassSchedule.csproj": {
+    "C:\\Users\\Alexey_\\source\\repos\\classschedule-main\\ClassSchedule\\ClassSchedule.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ienik\\source\\repos\\ClassSchedule\\ClassSchedule\\ClassSchedule.csproj",
+        "projectUniqueName": "C:\\Users\\Alexey_\\source\\repos\\classschedule-main\\ClassSchedule\\ClassSchedule.csproj",
         "projectName": "ClassSchedule",
-        "projectPath": "C:\\Users\\ienik\\source\\repos\\ClassSchedule\\ClassSchedule\\ClassSchedule.csproj",
-        "packagesPath": "C:\\Users\\ienik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ienik\\source\\repos\\ClassSchedule\\ClassSchedule\\obj\\",
+        "projectPath": "C:\\Users\\Alexey_\\source\\repos\\classschedule-main\\ClassSchedule\\ClassSchedule.csproj",
+        "packagesPath": "C:\\Users\\Alexey_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexey_\\source\\repos\\classschedule-main\\ClassSchedule\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ienik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alexey_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,7 +62,7 @@
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[1.18.1, )"
+              "version": "[1.19.5, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -71,7 +70,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -93,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

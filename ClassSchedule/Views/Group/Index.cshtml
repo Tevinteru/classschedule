@@ -1,0 +1,11 @@
+﻿@using ClassSchedule.Data.DataModels
+
+@model GroupData
+
+<form asp-action="Index" asp-controller="Group">
+    <div>
+        <label for="Name">Name</label>
+        <input type="text" id="Name" name="Name" />
+    </div>
+    <button type="submit">Submit</button>
+</form>
