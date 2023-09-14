@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aG8CfMzIgJntHwI6w0tGRSx4r7oh/RiuSEKMCzUVYtR66XWYJ+SriP8romyC0tPZvQ3227UtKsoBvLNoLmOGjw==",
+  "dgSpecHash": "UhgMJvX5omWTOiE/ji+xo3+ImJ8HGN2fSpZ0npKO57LjPtiZL5mzVefkRy4jbLlo/U1duRYplVDsvQUmlldhag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alexey_\\source\\repos\\classschedule-main\\ClassSchedule\\ClassSchedule.csproj",
+  "projectFilePath": "C:\\Users\\Alexey_\\classschedule\\ClassSchedule\\ClassSchedule.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alexey_\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Alexey_\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

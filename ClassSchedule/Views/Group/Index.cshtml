@@ -2,10 +2,46 @@
 
 @model GroupData
 
-<form asp-action="Index" asp-controller="Group">
-    <div>
-        <label for="Name">Name</label>
-        <input type="text" id="Name" name="Name" />
+@{
+    ViewBag.Title = "Создание группы";
+}
+   <style>
+        .centered {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+        }
+        .rounded {
+            border-radius: 15px;
+            border: 1px solid #dbdbdb;
+            padding: 45px 60px 45px 60px;
+        }
+        .button:hover {
+            transform: scale(1.02);
+            transition: all 0.2s ease-in-out;
+        }
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: snow;      
+        }
+        .label{
+            font-size: 15px;
+            text-align: center;
+    }
+    </style>
+
+    <div class="centered">
+        <form asp-action="Index" asp-controller="Group" class="rounded form-container">
+                <div class="field has-text-centered">
+                    <label class="label" for="Name">Название группы</label>
+                    <div class="control">
+                        <input class="input" type="text" id="Name" name="Name" />
+                    </div>
+                </div>
+                <button class="button is-danger" type="submit">Создать</button>
+            </form>
     </div>
-    <button type="submit">Submit</button>
-</form>

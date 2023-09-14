@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alexey_\\source\\repos\\classschedule-main\\ClassSchedule\\ClassSchedule.csproj": {}
+    "C:\\Users\\Alexey_\\classschedule\\ClassSchedule\\ClassSchedule.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alexey_\\source\\repos\\classschedule-main\\ClassSchedule\\ClassSchedule.csproj": {
+    "C:\\Users\\Alexey_\\classschedule\\ClassSchedule\\ClassSchedule.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexey_\\source\\repos\\classschedule-main\\ClassSchedule\\ClassSchedule.csproj",
+        "projectUniqueName": "C:\\Users\\Alexey_\\classschedule\\ClassSchedule\\ClassSchedule.csproj",
         "projectName": "ClassSchedule",
-        "projectPath": "C:\\Users\\Alexey_\\source\\repos\\classschedule-main\\ClassSchedule\\ClassSchedule.csproj",
+        "projectPath": "C:\\Users\\Alexey_\\classschedule\\ClassSchedule\\ClassSchedule.csproj",
         "packagesPath": "C:\\Users\\Alexey_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexey_\\source\\repos\\classschedule-main\\ClassSchedule\\obj\\",
+        "outputPath": "C:\\Users\\Alexey_\\classschedule\\ClassSchedule\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alexey_\\AppData\\Roaming\\NuGet\\NuGet.Config",

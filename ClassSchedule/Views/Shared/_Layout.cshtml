@@ -2,11 +2,47 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/bulma.min.css">
+   
 </head>
+
 <body>
+    <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://localhost:7009">
+                Главная
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    Заполнение данных
+                </a>
+                <div class="navbar-dropdown is-boxed">
+                    <a class="navbar-item" href="https://localhost:7009/Group">
+                        Группа
+                    </a>
+                    <a class="navbar-item" href="https://localhost:7009/Group">
+                        Группа
+                    </a>
+                    <a class="navbar-item" href="https://localhost:7009/Group">
+                        Группа
+                    </a>
+                    <a class="navbar-item" href="https://localhost:7009/Group">
+                        Группа
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
     <div>
         @RenderBody()
+
     </div>
+
+    @await RenderSectionAsync("Scripts", required: false)
+
 </body>
 </html>

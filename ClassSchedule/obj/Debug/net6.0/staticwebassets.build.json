@@ -1,11 +1,54 @@
 {
   "Version": 1,
-  "Hash": "dhQsUDF0IVpJekhVHRW5O7Txsevg1vX5IKuwWu7rGJ8=",
+  "Hash": "/VnS0QqgMyHoxrMGIVY5QqkgT4BcH/Kf5jiKTFNo7QA=",
   "Source": "ClassSchedule",
   "BasePath": "_content/ClassSchedule",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ClassSchedule\\wwwroot",
+      "Source": "ClassSchedule",
+      "ContentRoot": "C:\\Users\\Alexey_\\classschedule\\ClassSchedule\\wwwroot\\",
+      "BasePath": "_content/ClassSchedule",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Alexey_\\classschedule\\ClassSchedule\\wwwroot\\css\\bulma.min.css",
+      "SourceId": "ClassSchedule",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alexey_\\classschedule\\ClassSchedule\\wwwroot\\",
+      "BasePath": "_content/ClassSchedule",
+      "RelativePath": "css/bulma.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bulma.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Alexey_\\classschedule\\ClassSchedule\\wwwroot\\css\\style.css",
+      "SourceId": "ClassSchedule",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alexey_\\classschedule\\ClassSchedule\\wwwroot\\",
+      "BasePath": "_content/ClassSchedule",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
 }
